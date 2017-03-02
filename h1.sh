@@ -4,3 +4,4 @@ then
 useradd $1
 echo $1:$2 | chpasswd -c MD5
 fi
+ clear
